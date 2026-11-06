@@ -1,0 +1,547 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Student\\source\\repos\\AgriStreamIoT\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AA51ADB1-15F2-4DD7-A310-EE74A1FC2FA1}|AgriStreamIoT\\AgriStreamIoT.csproj|c:\\users\\student\\source\\repos\\agristreamiot\\agristreamiot\\agristreamiot.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{AA51ADB1-15F2-4DD7-A310-EE74A1FC2FA1}|AgriStreamIoT\\AgriStreamIoT.csproj|solutionrelative:agristreamiot\\agristreamiot.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA51ADB1-15F2-4DD7-A310-EE74A1FC2FA1}|AgriStreamIoT\\AgriStreamIoT.csproj|c:\\users\\student\\source\\repos\\agristreamiot\\agristreamiot\\controllers\\loadtestcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA51ADB1-15F2-4DD7-A310-EE74A1FC2FA1}|AgriStreamIoT\\AgriStreamIoT.csproj|solutionrelative:agristreamiot\\controllers\\loadtestcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C1F4AE1-1048-4C1A-9E04-7C216E6B1A2F}|AgriStream.Functions\\AgriStream.Functions.csproj|c:\\users\\student\\source\\repos\\agristreamiot\\agristream.functions\\processirrigationqueuefunction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C1F4AE1-1048-4C1A-9E04-7C216E6B1A2F}|AgriStream.Functions\\AgriStream.Functions.csproj|solutionrelative:agristream.functions\\processirrigationqueuefunction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C1F4AE1-1048-4C1A-9E04-7C216E6B1A2F}|AgriStream.Functions\\AgriStream.Functions.csproj|c:\\users\\student\\source\\repos\\agristreamiot\\agristream.functions\\agristream.functions.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{2C1F4AE1-1048-4C1A-9E04-7C216E6B1A2F}|AgriStream.Functions\\AgriStream.Functions.csproj|solutionrelative:agristream.functions\\agristream.functions.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C1F4AE1-1048-4C1A-9E04-7C216E6B1A2F}|AgriStream.Functions\\AgriStream.Functions.csproj|c:\\users\\student\\source\\repos\\agristreamiot\\agristream.functions\\telemetryingestfunction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C1F4AE1-1048-4C1A-9E04-7C216E6B1A2F}|AgriStream.Functions\\AgriStream.Functions.csproj|solutionrelative:agristream.functions\\telemetryingestfunction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C1F4AE1-1048-4C1A-9E04-7C216E6B1A2F}|AgriStream.Functions\\AgriStream.Functions.csproj|c:\\users\\student\\source\\repos\\agristreamiot\\agristream.functions\\gettelemetryfunction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C1F4AE1-1048-4C1A-9E04-7C216E6B1A2F}|AgriStream.Functions\\AgriStream.Functions.csproj|solutionrelative:agristream.functions\\gettelemetryfunction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C1F4AE1-1048-4C1A-9E04-7C216E6B1A2F}|AgriStream.Functions\\AgriStream.Functions.csproj|c:\\users\\student\\source\\repos\\agristreamiot\\agristream.functions\\triggerirrigationfunction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C1F4AE1-1048-4C1A-9E04-7C216E6B1A2F}|AgriStream.Functions\\AgriStream.Functions.csproj|solutionrelative:agristream.functions\\triggerirrigationfunction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C1F4AE1-1048-4C1A-9E04-7C216E6B1A2F}|AgriStream.Functions\\AgriStream.Functions.csproj|c:\\users\\student\\source\\repos\\agristreamiot\\agristream.functions\\droneimageblobfunction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C1F4AE1-1048-4C1A-9E04-7C216E6B1A2F}|AgriStream.Functions\\AgriStream.Functions.csproj|solutionrelative:agristream.functions\\droneimageblobfunction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA51ADB1-15F2-4DD7-A310-EE74A1FC2FA1}|AgriStreamIoT\\AgriStreamIoT.csproj|c:\\users\\student\\source\\repos\\agristreamiot\\agristreamiot\\views\\devices\\uploaddroneimage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AA51ADB1-15F2-4DD7-A310-EE74A1FC2FA1}|AgriStreamIoT\\AgriStreamIoT.csproj|solutionrelative:agristreamiot\\views\\devices\\uploaddroneimage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C1F4AE1-1048-4C1A-9E04-7C216E6B1A2F}|AgriStream.Functions\\AgriStream.Functions.csproj|c:\\users\\student\\source\\repos\\agristreamiot\\agristream.functions\\local.settings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{2C1F4AE1-1048-4C1A-9E04-7C216E6B1A2F}|AgriStream.Functions\\AgriStream.Functions.csproj|solutionrelative:agristream.functions\\local.settings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA51ADB1-15F2-4DD7-A310-EE74A1FC2FA1}|AgriStreamIoT\\AgriStreamIoT.csproj|c:\\users\\student\\source\\repos\\agristreamiot\\agristreamiot\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{AA51ADB1-15F2-4DD7-A310-EE74A1FC2FA1}|AgriStreamIoT\\AgriStreamIoT.csproj|solutionrelative:agristreamiot\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA51ADB1-15F2-4DD7-A310-EE74A1FC2FA1}|AgriStreamIoT\\AgriStreamIoT.csproj|c:\\users\\student\\source\\repos\\agristreamiot\\agristreamiot\\controllers\\devicescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA51ADB1-15F2-4DD7-A310-EE74A1FC2FA1}|AgriStreamIoT\\AgriStreamIoT.csproj|solutionrelative:agristreamiot\\controllers\\devicescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA51ADB1-15F2-4DD7-A310-EE74A1FC2FA1}|AgriStreamIoT\\AgriStreamIoT.csproj|c:\\users\\student\\source\\repos\\agristreamiot\\agristreamiot\\views\\devices\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AA51ADB1-15F2-4DD7-A310-EE74A1FC2FA1}|AgriStreamIoT\\AgriStreamIoT.csproj|solutionrelative:agristreamiot\\views\\devices\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA51ADB1-15F2-4DD7-A310-EE74A1FC2FA1}|AgriStreamIoT\\AgriStreamIoT.csproj|c:\\users\\student\\source\\repos\\agristreamiot\\agristreamiot\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA51ADB1-15F2-4DD7-A310-EE74A1FC2FA1}|AgriStreamIoT\\AgriStreamIoT.csproj|solutionrelative:agristreamiot\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C1F4AE1-1048-4C1A-9E04-7C216E6B1A2F}|AgriStream.Functions\\AgriStream.Functions.csproj|c:\\users\\student\\source\\repos\\agristreamiot\\agristream.functions\\telemetryqueueprocessorfunction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C1F4AE1-1048-4C1A-9E04-7C216E6B1A2F}|AgriStream.Functions\\AgriStream.Functions.csproj|solutionrelative:agristream.functions\\telemetryqueueprocessorfunction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA51ADB1-15F2-4DD7-A310-EE74A1FC2FA1}|AgriStreamIoT\\AgriStreamIoT.csproj|c:\\users\\student\\source\\repos\\agristreamiot\\agristreamiot\\data\\agridbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA51ADB1-15F2-4DD7-A310-EE74A1FC2FA1}|AgriStreamIoT\\AgriStreamIoT.csproj|solutionrelative:agristreamiot\\data\\agridbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Student\\source\\repos\\AgriStreamIoT\\AgriStreamIoT\\Migrations\\20261106095756_AddTelemetryReadingTable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:AgriStreamIoT\\Migrations\\20261106095756_AddTelemetryReadingTable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA51ADB1-15F2-4DD7-A310-EE74A1FC2FA1}|AgriStreamIoT\\AgriStreamIoT.csproj|c:\\users\\student\\source\\repos\\agristreamiot\\agristreamiot\\models\\telemetryreading.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA51ADB1-15F2-4DD7-A310-EE74A1FC2FA1}|AgriStreamIoT\\AgriStreamIoT.csproj|solutionrelative:agristreamiot\\models\\telemetryreading.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA51ADB1-15F2-4DD7-A310-EE74A1FC2FA1}|AgriStreamIoT\\AgriStreamIoT.csproj|c:\\users\\student\\source\\repos\\agristreamiot\\agristreamiot\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AA51ADB1-15F2-4DD7-A310-EE74A1FC2FA1}|AgriStreamIoT\\AgriStreamIoT.csproj|solutionrelative:agristreamiot\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA51ADB1-15F2-4DD7-A310-EE74A1FC2FA1}|AgriStreamIoT\\AgriStreamIoT.csproj|c:\\users\\student\\source\\repos\\agristreamiot\\agristreamiot\\views\\devices\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AA51ADB1-15F2-4DD7-A310-EE74A1FC2FA1}|AgriStreamIoT\\AgriStreamIoT.csproj|solutionrelative:agristreamiot\\views\\devices\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA51ADB1-15F2-4DD7-A310-EE74A1FC2FA1}|AgriStreamIoT\\AgriStreamIoT.csproj|c:\\users\\student\\source\\repos\\agristreamiot\\agristreamiot\\views\\devices\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AA51ADB1-15F2-4DD7-A310-EE74A1FC2FA1}|AgriStreamIoT\\AgriStreamIoT.csproj|solutionrelative:agristreamiot\\views\\devices\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA51ADB1-15F2-4DD7-A310-EE74A1FC2FA1}|AgriStreamIoT\\AgriStreamIoT.csproj|c:\\users\\student\\source\\repos\\agristreamiot\\agristreamiot\\views\\devices\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AA51ADB1-15F2-4DD7-A310-EE74A1FC2FA1}|AgriStreamIoT\\AgriStreamIoT.csproj|solutionrelative:agristreamiot\\views\\devices\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA51ADB1-15F2-4DD7-A310-EE74A1FC2FA1}|AgriStreamIoT\\AgriStreamIoT.csproj|c:\\users\\student\\source\\repos\\agristreamiot\\agristreamiot\\models\\device.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA51ADB1-15F2-4DD7-A310-EE74A1FC2FA1}|AgriStreamIoT\\AgriStreamIoT.csproj|solutionrelative:agristreamiot\\models\\device.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C1F4AE1-1048-4C1A-9E04-7C216E6B1A2F}|AgriStream.Functions\\AgriStream.Functions.csproj|c:\\users\\student\\source\\repos\\agristreamiot\\agristream.functions\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C1F4AE1-1048-4C1A-9E04-7C216E6B1A2F}|AgriStream.Functions\\AgriStream.Functions.csproj|solutionrelative:agristream.functions\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C1F4AE1-1048-4C1A-9E04-7C216E6B1A2F}|AgriStream.Functions\\AgriStream.Functions.csproj|c:\\users\\student\\source\\repos\\agristreamiot\\agristream.functions\\function1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C1F4AE1-1048-4C1A-9E04-7C216E6B1A2F}|AgriStream.Functions\\AgriStream.Functions.csproj|solutionrelative:agristream.functions\\function1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA51ADB1-15F2-4DD7-A310-EE74A1FC2FA1}|AgriStreamIoT\\AgriStreamIoT.csproj|c:\\users\\student\\source\\repos\\agristreamiot\\agristreamiot\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AA51ADB1-15F2-4DD7-A310-EE74A1FC2FA1}|AgriStreamIoT\\AgriStreamIoT.csproj|solutionrelative:agristreamiot\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA51ADB1-15F2-4DD7-A310-EE74A1FC2FA1}|AgriStreamIoT\\AgriStreamIoT.csproj|c:\\users\\student\\source\\repos\\agristreamiot\\agristreamiot\\data\\dbinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA51ADB1-15F2-4DD7-A310-EE74A1FC2FA1}|AgriStreamIoT\\AgriStreamIoT.csproj|solutionrelative:agristreamiot\\data\\dbinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA51ADB1-15F2-4DD7-A310-EE74A1FC2FA1}|AgriStreamIoT\\AgriStreamIoT.csproj|c:\\users\\student\\source\\repos\\agristreamiot\\agristreamiot\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA51ADB1-15F2-4DD7-A310-EE74A1FC2FA1}|AgriStreamIoT\\AgriStreamIoT.csproj|solutionrelative:agristreamiot\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA51ADB1-15F2-4DD7-A310-EE74A1FC2FA1}|AgriStreamIoT\\AgriStreamIoT.csproj|c:\\users\\student\\source\\repos\\agristreamiot\\agristreamiot\\models\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA51ADB1-15F2-4DD7-A310-EE74A1FC2FA1}|AgriStreamIoT\\AgriStreamIoT.csproj|solutionrelative:agristreamiot\\models\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA51ADB1-15F2-4DD7-A310-EE74A1FC2FA1}|AgriStreamIoT\\AgriStreamIoT.csproj|c:\\users\\student\\source\\repos\\agristreamiot\\agristreamiot\\migrations\\20261106082737_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA51ADB1-15F2-4DD7-A310-EE74A1FC2FA1}|AgriStreamIoT\\AgriStreamIoT.csproj|solutionrelative:agristreamiot\\migrations\\20261106082737_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA51ADB1-15F2-4DD7-A310-EE74A1FC2FA1}|AgriStreamIoT\\AgriStreamIoT.csproj|c:\\users\\student\\source\\repos\\agristreamiot\\agristreamiot\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA51ADB1-15F2-4DD7-A310-EE74A1FC2FA1}|AgriStreamIoT\\AgriStreamIoT.csproj|solutionrelative:agristreamiot\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "DroneImageBlobFunction.cs",
+              "DocumentMoniker": "C:\\Users\\Student\\source\\repos\\AgriStreamIoT\\AgriStream.Functions\\DroneImageBlobFunction.cs",
+              "RelativeDocumentMoniker": "AgriStream.Functions\\DroneImageBlobFunction.cs",
+              "ToolTip": "C:\\Users\\Student\\source\\repos\\AgriStreamIoT\\AgriStream.Functions\\DroneImageBlobFunction.cs",
+              "RelativeToolTip": "AgriStream.Functions\\DroneImageBlobFunction.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-06T10:21:16.865Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TelemetryIngestFunction.cs",
+              "DocumentMoniker": "C:\\Users\\Student\\source\\repos\\AgriStreamIoT\\AgriStream.Functions\\TelemetryIngestFunction.cs",
+              "RelativeDocumentMoniker": "AgriStream.Functions\\TelemetryIngestFunction.cs",
+              "ToolTip": "C:\\Users\\Student\\source\\repos\\AgriStreamIoT\\AgriStream.Functions\\TelemetryIngestFunction.cs",
+              "RelativeToolTip": "AgriStream.Functions\\TelemetryIngestFunction.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAIwDAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-06T09:00:36.086Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AgriStream.Functions",
+              "DocumentMoniker": "C:\\Users\\Student\\source\\repos\\AgriStreamIoT\\AgriStream.Functions\\AgriStream.Functions.csproj",
+              "RelativeDocumentMoniker": "AgriStream.Functions\\AgriStream.Functions.csproj",
+              "ToolTip": "C:\\Users\\Student\\source\\repos\\AgriStreamIoT\\AgriStream.Functions\\AgriStream.Functions.csproj",
+              "RelativeToolTip": "AgriStream.Functions\\AgriStream.Functions.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-11-06T09:00:23.119Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProcessIrrigationQueueFunction.cs",
+              "DocumentMoniker": "C:\\Users\\Student\\source\\repos\\AgriStreamIoT\\AgriStream.Functions\\ProcessIrrigationQueueFunction.cs",
+              "RelativeDocumentMoniker": "AgriStream.Functions\\ProcessIrrigationQueueFunction.cs",
+              "ToolTip": "C:\\Users\\Student\\source\\repos\\AgriStreamIoT\\AgriStream.Functions\\ProcessIrrigationQueueFunction.cs",
+              "RelativeToolTip": "AgriStream.Functions\\ProcessIrrigationQueueFunction.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAA6wBwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-06T10:21:01.297Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "TriggerIrrigationFunction.cs",
+              "DocumentMoniker": "C:\\Users\\Student\\source\\repos\\AgriStreamIoT\\AgriStream.Functions\\TriggerIrrigationFunction.cs",
+              "RelativeDocumentMoniker": "AgriStream.Functions\\TriggerIrrigationFunction.cs",
+              "ToolTip": "C:\\Users\\Student\\source\\repos\\AgriStreamIoT\\AgriStream.Functions\\TriggerIrrigationFunction.cs",
+              "RelativeToolTip": "AgriStream.Functions\\TriggerIrrigationFunction.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAowCEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-06T10:20:44.682Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AgriStreamIoT",
+              "DocumentMoniker": "C:\\Users\\Student\\source\\repos\\AgriStreamIoT\\AgriStreamIoT\\AgriStreamIoT.csproj",
+              "RelativeDocumentMoniker": "AgriStreamIoT\\AgriStreamIoT.csproj",
+              "ToolTip": "C:\\Users\\Student\\source\\repos\\AgriStreamIoT\\AgriStreamIoT\\AgriStreamIoT.csproj",
+              "RelativeToolTip": "AgriStreamIoT\\AgriStreamIoT.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-11-06T07:46:47.457Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LoadTestController.cs",
+              "DocumentMoniker": "C:\\Users\\Student\\source\\repos\\AgriStreamIoT\\AgriStreamIoT\\Controllers\\LoadTestController.cs",
+              "RelativeDocumentMoniker": "AgriStreamIoT\\Controllers\\LoadTestController.cs",
+              "ToolTip": "C:\\Users\\Student\\source\\repos\\AgriStreamIoT\\AgriStreamIoT\\Controllers\\LoadTestController.cs",
+              "RelativeToolTip": "AgriStreamIoT\\Controllers\\LoadTestController.cs",
+              "ViewState": "AgIAADkAAAAAAAAAAAAowFEAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-06T12:02:39.595Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "UploadDroneImage.cshtml",
+              "DocumentMoniker": "C:\\Users\\Student\\source\\repos\\AgriStreamIoT\\AgriStreamIoT\\Views\\Devices\\UploadDroneImage.cshtml",
+              "RelativeDocumentMoniker": "AgriStreamIoT\\Views\\Devices\\UploadDroneImage.cshtml",
+              "ToolTip": "C:\\Users\\Student\\source\\repos\\AgriStreamIoT\\AgriStreamIoT\\Views\\Devices\\UploadDroneImage.cshtml",
+              "RelativeToolTip": "AgriStreamIoT\\Views\\Devices\\UploadDroneImage.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-06T10:44:18.308Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "local.settings.json",
+              "DocumentMoniker": "C:\\Users\\Student\\source\\repos\\AgriStreamIoT\\AgriStream.Functions\\local.settings.json",
+              "RelativeDocumentMoniker": "AgriStream.Functions\\local.settings.json",
+              "ToolTip": "C:\\Users\\Student\\source\\repos\\AgriStreamIoT\\AgriStream.Functions\\local.settings.json",
+              "RelativeToolTip": "AgriStream.Functions\\local.settings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-11-06T08:58:22.465Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "GetTelemetryFunction.cs",
+              "DocumentMoniker": "C:\\Users\\Student\\source\\repos\\AgriStreamIoT\\AgriStream.Functions\\GetTelemetryFunction.cs",
+              "RelativeDocumentMoniker": "AgriStream.Functions\\GetTelemetryFunction.cs",
+              "ToolTip": "C:\\Users\\Student\\source\\repos\\AgriStreamIoT\\AgriStream.Functions\\GetTelemetryFunction.cs",
+              "RelativeToolTip": "AgriStream.Functions\\GetTelemetryFunction.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAowCcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-06T10:20:24.579Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Student\\source\\repos\\AgriStreamIoT\\AgriStreamIoT\\appsettings.json",
+              "RelativeDocumentMoniker": "AgriStreamIoT\\appsettings.json",
+              "ToolTip": "C:\\Users\\Student\\source\\repos\\AgriStreamIoT\\AgriStreamIoT\\appsettings.json",
+              "RelativeToolTip": "AgriStreamIoT\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAADYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-11-06T07:45:08.934Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Student\\source\\repos\\AgriStreamIoT\\AgriStreamIoT\\Program.cs",
+              "RelativeDocumentMoniker": "AgriStreamIoT\\Program.cs",
+              "ToolTip": "C:\\Users\\Student\\source\\repos\\AgriStreamIoT\\AgriStreamIoT\\Program.cs",
+              "RelativeToolTip": "AgriStreamIoT\\Program.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAuwBsAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-06T08:24:13.126Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "DevicesController.cs",
+              "DocumentMoniker": "C:\\Users\\Student\\source\\repos\\AgriStreamIoT\\AgriStreamIoT\\Controllers\\DevicesController.cs",
+              "RelativeDocumentMoniker": "AgriStreamIoT\\Controllers\\DevicesController.cs",
+              "ToolTip": "C:\\Users\\Student\\source\\repos\\AgriStreamIoT\\AgriStreamIoT\\Controllers\\DevicesController.cs",
+              "RelativeToolTip": "AgriStreamIoT\\Controllers\\DevicesController.cs",
+              "ViewState": "AgIAAK0AAAAAAAAAAAAAAAsBAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-06T08:49:42.019Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Student\\source\\repos\\AgriStreamIoT\\AgriStreamIoT\\Views\\Devices\\Index.cshtml",
+              "RelativeDocumentMoniker": "AgriStreamIoT\\Views\\Devices\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Student\\source\\repos\\AgriStreamIoT\\AgriStreamIoT\\Views\\Devices\\Index.cshtml",
+              "RelativeToolTip": "AgriStreamIoT\\Views\\Devices\\Index.cshtml",
+              "ViewState": "AgIAAHMAAAAAAAAAAAAowIwAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-06T08:50:47.472Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "AgriDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Student\\source\\repos\\AgriStreamIoT\\AgriStreamIoT\\Data\\AgriDbContext.cs",
+              "RelativeDocumentMoniker": "AgriStreamIoT\\Data\\AgriDbContext.cs",
+              "ToolTip": "C:\\Users\\Student\\source\\repos\\AgriStreamIoT\\AgriStreamIoT\\Data\\AgriDbContext.cs",
+              "RelativeToolTip": "AgriStreamIoT\\Data\\AgriDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-06T07:47:07.988Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "TelemetryQueueProcessorFunction.cs",
+              "DocumentMoniker": "C:\\Users\\Student\\source\\repos\\AgriStreamIoT\\AgriStream.Functions\\TelemetryQueueProcessorFunction.cs",
+              "RelativeDocumentMoniker": "AgriStream.Functions\\TelemetryQueueProcessorFunction.cs",
+              "ToolTip": "C:\\Users\\Student\\source\\repos\\AgriStreamIoT\\AgriStream.Functions\\TelemetryQueueProcessorFunction.cs",
+              "RelativeToolTip": "AgriStream.Functions\\TelemetryQueueProcessorFunction.cs",
+              "ViewState": "AgIAADcAAAAAAAAAAAAUwFoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-06T09:03:07.605Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "20261106095756_AddTelemetryReadingTable.cs",
+              "DocumentMoniker": "C:\\Users\\Student\\source\\repos\\AgriStreamIoT\\AgriStreamIoT\\Migrations\\20261106095756_AddTelemetryReadingTable.cs",
+              "RelativeDocumentMoniker": "AgriStreamIoT\\Migrations\\20261106095756_AddTelemetryReadingTable.cs",
+              "ToolTip": "C:\\Users\\Student\\source\\repos\\AgriStreamIoT\\AgriStreamIoT\\Migrations\\20261106095756_AddTelemetryReadingTable.cs",
+              "RelativeToolTip": "AgriStreamIoT\\Migrations\\20261106095756_AddTelemetryReadingTable.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAwwCUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-06T09:57:56.516Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "TelemetryReading.cs",
+              "DocumentMoniker": "C:\\Users\\Student\\source\\repos\\AgriStreamIoT\\AgriStreamIoT\\Models\\TelemetryReading.cs",
+              "RelativeDocumentMoniker": "AgriStreamIoT\\Models\\TelemetryReading.cs",
+              "ToolTip": "C:\\Users\\Student\\source\\repos\\AgriStreamIoT\\AgriStreamIoT\\Models\\TelemetryReading.cs",
+              "RelativeToolTip": "AgriStreamIoT\\Models\\TelemetryReading.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAAwBMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-06T09:57:03.166Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Student\\source\\repos\\AgriStreamIoT\\AgriStreamIoT\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "AgriStreamIoT\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Student\\source\\repos\\AgriStreamIoT\\AgriStreamIoT\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "AgriStreamIoT\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-06T08:51:53.705Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Function1.cs",
+              "DocumentMoniker": "C:\\Users\\Student\\source\\repos\\AgriStreamIoT\\AgriStream.Functions\\Function1.cs",
+              "RelativeDocumentMoniker": "AgriStream.Functions\\Function1.cs",
+              "ToolTip": "C:\\Users\\Student\\source\\repos\\AgriStreamIoT\\AgriStream.Functions\\Function1.cs",
+              "RelativeToolTip": "AgriStream.Functions\\Function1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-06T08:57:07.479Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Student\\source\\repos\\AgriStreamIoT\\AgriStream.Functions\\Program.cs",
+              "RelativeDocumentMoniker": "AgriStream.Functions\\Program.cs",
+              "ToolTip": "C:\\Users\\Student\\source\\repos\\AgriStreamIoT\\AgriStream.Functions\\Program.cs",
+              "RelativeToolTip": "AgriStream.Functions\\Program.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAADwvxwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-06T09:19:09.092Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Student\\source\\repos\\AgriStreamIoT\\AgriStreamIoT\\Views\\Devices\\Create.cshtml",
+              "RelativeDocumentMoniker": "AgriStreamIoT\\Views\\Devices\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Student\\source\\repos\\AgriStreamIoT\\AgriStreamIoT\\Views\\Devices\\Create.cshtml",
+              "RelativeToolTip": "AgriStreamIoT\\Views\\Devices\\Create.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAqwDcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-06T09:34:21.051Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\Student\\source\\repos\\AgriStreamIoT\\AgriStreamIoT\\Views\\Devices\\Delete.cshtml",
+              "RelativeDocumentMoniker": "AgriStreamIoT\\Views\\Devices\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\Student\\source\\repos\\AgriStreamIoT\\AgriStreamIoT\\Views\\Devices\\Delete.cshtml",
+              "RelativeToolTip": "AgriStreamIoT\\Views\\Devices\\Delete.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAYwCMAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-06T09:35:16.821Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Student\\source\\repos\\AgriStreamIoT\\AgriStreamIoT\\Views\\Devices\\Edit.cshtml",
+              "RelativeDocumentMoniker": "AgriStreamIoT\\Views\\Devices\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Student\\source\\repos\\AgriStreamIoT\\AgriStreamIoT\\Views\\Devices\\Edit.cshtml",
+              "RelativeToolTip": "AgriStreamIoT\\Views\\Devices\\Edit.cshtml",
+              "ViewState": "AgIAABEAAAAAAAAAAAAqwDkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-06T09:34:49.053Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Device.cs",
+              "DocumentMoniker": "C:\\Users\\Student\\source\\repos\\AgriStreamIoT\\AgriStreamIoT\\Models\\Device.cs",
+              "RelativeDocumentMoniker": "AgriStreamIoT\\Models\\Device.cs",
+              "ToolTip": "C:\\Users\\Student\\source\\repos\\AgriStreamIoT\\AgriStreamIoT\\Models\\Device.cs",
+              "RelativeToolTip": "AgriStreamIoT\\Models\\Device.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-06T07:44:27.729Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\Student\\source\\repos\\AgriStreamIoT\\AgriStreamIoT\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "AgriStreamIoT\\Views\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\Student\\source\\repos\\AgriStreamIoT\\AgriStreamIoT\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "AgriStreamIoT\\Views\\Account\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-06T08:41:09.86Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\Student\\source\\repos\\AgriStreamIoT\\AgriStreamIoT\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "AgriStreamIoT\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\Student\\source\\repos\\AgriStreamIoT\\AgriStreamIoT\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "AgriStreamIoT\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAmwDcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-06T08:37:51.229Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "LoginViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Student\\source\\repos\\AgriStreamIoT\\AgriStreamIoT\\Models\\LoginViewModel.cs",
+              "RelativeDocumentMoniker": "AgriStreamIoT\\Models\\LoginViewModel.cs",
+              "ToolTip": "C:\\Users\\Student\\source\\repos\\AgriStreamIoT\\AgriStreamIoT\\Models\\LoginViewModel.cs",
+              "RelativeToolTip": "AgriStreamIoT\\Models\\LoginViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-06T08:35:58.867Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "DbInitializer.cs",
+              "DocumentMoniker": "C:\\Users\\Student\\source\\repos\\AgriStreamIoT\\AgriStreamIoT\\Data\\DbInitializer.cs",
+              "RelativeDocumentMoniker": "AgriStreamIoT\\Data\\DbInitializer.cs",
+              "ToolTip": "C:\\Users\\Student\\source\\repos\\AgriStreamIoT\\AgriStreamIoT\\Data\\DbInitializer.cs",
+              "RelativeToolTip": "AgriStreamIoT\\Data\\DbInitializer.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAIwBIAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-06T08:32:16.68Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "20261106082737_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\Student\\source\\repos\\AgriStreamIoT\\AgriStreamIoT\\Migrations\\20261106082737_InitialCreate.cs",
+              "RelativeDocumentMoniker": "AgriStreamIoT\\Migrations\\20261106082737_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\Student\\source\\repos\\AgriStreamIoT\\AgriStreamIoT\\Migrations\\20261106082737_InitialCreate.cs",
+              "RelativeToolTip": "AgriStreamIoT\\Migrations\\20261106082737_InitialCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-06T08:27:38.197Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\Student\\source\\repos\\AgriStreamIoT\\AgriStreamIoT\\Models\\User.cs",
+              "RelativeDocumentMoniker": "AgriStreamIoT\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\Student\\source\\repos\\AgriStreamIoT\\AgriStreamIoT\\Models\\User.cs",
+              "RelativeToolTip": "AgriStreamIoT\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-06T07:43:06.098Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

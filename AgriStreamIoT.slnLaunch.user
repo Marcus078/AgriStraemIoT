@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Path": "AgriStreamIoT\\AgriStreamIoT.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "AgriStream.Functions\\AgriStream.Functions.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]

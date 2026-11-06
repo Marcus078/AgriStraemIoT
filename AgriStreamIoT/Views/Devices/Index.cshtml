@@ -1,0 +1,144 @@
+﻿@model IEnumerable<AgriStreamIoT.Models.Device>
+
+@{
+    ViewData["Title"] = "IoT Devices - AgriStream";
+}
+
+<div class="container mt-4">
+    <div class="d-flex justify-content-between align-items-center mb-3">
+        <div>
+            <h2>IoT Device Management</h2>
+            <p class="text-muted mb-0">Monitor connected agricultural sensors across your fields and greenhouses.</p>
+        </div>
+        <div>
+            <a asp-action="Create" class="btn btn-primary">
+                <i class="bi bi-plus-circle">+ Register New Device</i>
+            </a>
+        </div>
+    </div>
+
+    <!-- Live Telemetry Chart Section -->
+    <div class="card shadow-sm mb-4">
+        <div class="card-header bg-dark text-white">
+            <h5 class="mb-0">Live Sensor Telemetry Trends</h5>
+        </div>
+        <div class="card-body">
+            <canvas id="telemetryChart" height="90"></canvas>
+        </div>
+    </div>
+
+    <!-- Devices Table Section -->
+    <div class="card shadow-sm">
+        <div class="card-body">
+            <table class="table table-hover align-middle">
+                <thead class="table-dark">
+                    <tr>
+                        <th>Device ID</th>
+                        <th>Device Name</th>
+                        <th>Location</th>
+                        <th>Operational Status</th>
+                        <th class="text-end">Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var device in Model)
+                    {
+                        <tr>
+                            <td><code>@device.DeviceId</code></td>
+                            <td><strong>@device.DeviceName</strong></td>
+                            <td>@device.Location</td>
+                            <td>
+                                <span class="badge @(device.OperationalStatus == "Active" ? "bg-success" : device.OperationalStatus == "Irrigating" ? "bg-primary" : "bg-warning text-dark")">
+                                    @device.OperationalStatus
+                                </span>
+                            </td>
+                            <td class="text-end">
+                                <!-- Trigger Irrigation Button (Calls HTTP POST Function via Controller) -->
+                                <form asp-action="TriggerIrrigation" method="post" class="d-inline">
+                                    @Html.AntiForgeryToken()
+                                    <input type="hidden" name="deviceId" value="@device.DeviceId" />
+                                    <button type="submit" class="btn btn-sm btn-outline-warning me-1">Trigger Irrigation</button>
+                                </form>
+
+                                <a asp-action="Edit" asp-route-id="@device.DeviceId" class="btn btn-sm btn-outline-primary">Edit</a>
+                                <a asp-action="Delete" asp-route-id="@device.DeviceId" class="btn btn-sm btn-outline-danger">Delete</a>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script>
+        let telemetryChart = null;
+
+        async function updateChart() {
+            try {
+                const response = await fetch('/Devices/GetTelemetryData');
+                const data = await response.json();
+
+                const labels = data.map(item => item.timestamp);
+                const temperatures = data.map(item => item.temperature);
+                const moistureLevels = data.map(item => item.soilMoisture);
+
+                const ctx = document.getElementById('telemetryChart').getContext('2d');
+
+                // If chart already exists, update its data and re-render smoothly
+                if (telemetryChart) {
+                    telemetryChart.data.labels = labels;
+                    telemetryChart.data.datasets[0].data = temperatures;
+                    telemetryChart.data.datasets[1].data = moistureLevels;
+                    telemetryChart.update('none');
+                } else {
+                    // Create initial chart instance
+                    telemetryChart = new Chart(ctx, {
+                        type: 'line',
+                        data: {
+                            labels: labels,
+                            datasets: [
+                                {
+                                    label: 'Temperature (°C)',
+                                    data: temperatures,
+                                    borderColor: 'rgba(255, 99, 132, 1)',
+                                    backgroundColor: 'rgba(255, 99, 132, 0.2)',
+                                    tension: 0.3,
+                                    fill: true
+                                },
+                                {
+                                    label: 'Soil Moisture (%)',
+                                    data: moistureLevels,
+                                    borderColor: 'rgba(54, 162, 235, 1)',
+                                    backgroundColor: 'rgba(54, 162, 235, 0.2)',
+                                    tension: 0.3,
+                                    fill: true
+                                }
+                            ]
+                        },
+                        options: {
+                            responsive: true,
+                            scales: {
+                                y: {
+                                    beginAtZero: true
+                                }
+                            }
+                        }
+                    });
+                }
+            } catch (error) {
+                console.error("Error refreshing telemetry chart data:", error);
+            }
+        }
+
+        // Load chart immediately on page load
+        document.addEventListener('DOMContentLoaded', () => {
+            updateChart();
+
+            // Refresh data every 10 seconds (10000 milliseconds)
+            setInterval(updateChart, 10000);
+        });
+    </script>
+}

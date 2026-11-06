@@ -1,0 +1,58 @@
+﻿@model AgriStreamIoT.Models.Device
+
+@{
+    ViewData["Title"] = "Edit Device";
+}
+
+<div class="container mt-4">
+    <h2>Edit IoT Device</h2>
+    <hr />
+    <div class="row">
+        <div class="col-md-6">
+            <form asp-action="Edit">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+                <!-- Hidden DeviceId so routing keeps the primary key intact -->
+                <input type="hidden" asp-for="DeviceId" />
+
+                <div class="form-group mb-3">
+                    <label class="control-label font-weight-bold">Device ID</label>
+                    <input class="form-control" value="@Model.DeviceId" disabled />
+                </div>
+
+                <div class="form-group mb-3">
+                    <label asp-for="DeviceName" class="control-label font-weight-bold"></label>
+                    <input asp-for="DeviceName" class="form-control" />
+                    <span asp-validation-for="DeviceName" class="text-danger"></span>
+                </div>
+
+                <div class="form-group mb-3">
+                    <label asp-for="Location" class="control-label font-weight-bold"></label>
+                    <input asp-for="Location" class="form-control" />
+                    <span asp-validation-for="Location" class="text-danger"></span>
+                </div>
+
+                <div class="form-group mb-3">
+                    <label asp-for="OperationalStatus" class="control-label font-weight-bold"></label>
+                    <select asp-for="OperationalStatus" class="form-control">
+                        <option value="Active">Active</option>
+                        <option value="Irrigating">Irrigating</option>
+                        <option value="Maintenance">Maintenance</option>
+                    </select>
+                    <span asp-validation-for="OperationalStatus" class="text-danger"></span>
+                </div>
+
+                <div class="form-group mt-4">
+                    <input type="submit" value="Save Changes" class="btn btn-primary" />
+                    <a asp-action="Index" class="btn btn-secondary ml-2">Back to List</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}
